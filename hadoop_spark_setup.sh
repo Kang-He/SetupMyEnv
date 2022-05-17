@@ -11,7 +11,7 @@ tar -xzvf jdk-18_linux-x64_bin.tar.gz
 
 ##安装scala
 wget https://downloads.lightbend.com/scala/2.12.15/scala-2.12.15.tgz
-tar -xzvf /users/zhang56/scala-2.12.15.tgz
+tar -xzvf scala-2.12.15.tgz
 
 ##安装hadoop
 wget https://dlcdn.apache.org/hadoop/common/hadoop-3.2.3/hadoop-3.2.3.tar.gz
