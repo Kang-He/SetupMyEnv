@@ -35,3 +35,10 @@ cp ./hadoop_config/* ${envPath}/hadoop-3.2.3/etc/hadoop/
 
 ##配置spark
 cp ./spark_config/* ${envPath}/spark-3.1.3-bin-hadoop3.2/conf/ 
+
+
+#将程序文件分发到其他节点
+###创建文件
+/local/repository/Utils.sh 3 CMD "mkdir -p $envPath"
+###将程序文件全部分发
+/local/repository/Utils.sh 3 PUT " $envPath/*"  $envPath/
