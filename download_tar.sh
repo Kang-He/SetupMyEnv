@@ -1,6 +1,6 @@
 #变量配置
 envPath=${HOME}/SparkEnv
-scriptsPath=${HOME}/SetMyEnv
+scriptsPath=${HOME}/SetupMyEnv
 ###############################开始################################
 #安装java、scala、hadoop、spark
 mkdir -p $envPath
