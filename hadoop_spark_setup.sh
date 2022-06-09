@@ -10,7 +10,7 @@ sleep 8
 
 #配置环境变量
 cd $scriptsPath
-/local/repository/Utils.sh 10 CMD "cat $scriptsPath/addpath >> ${HOME}/.bash_profile"
+/local/repository/Utils.sh 10 CMD "cat $scriptsPath/addpath >> /etc/bashrc"
 echo "环境变量配置完成"
 sleep 5
 
