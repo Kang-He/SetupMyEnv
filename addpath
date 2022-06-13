@@ -1,4 +1,4 @@
-envPath=${HOME}/SparkEnv
+envPath=/users/zhang56/SparkEnv
 
 # JAVA
 export JAVA_HOME=${envPath}/jdk-18.0.1.1
