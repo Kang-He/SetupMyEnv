@@ -20,13 +20,13 @@
 <!--配置主节点名和端口号 -->
 <property>
     <name>dfs.namenode.http.address</name>
-    <value>node-0:9001</value>
+    <value>128.105.145.104:9001</value>
 </property>
 
 <!--配置从节点名和端口号 -->
 <property>
     <name>dfs.namenode.secondary.http.address</name>
-    <value>node-0：9001</value>
+    <value>node-0:9001</value>
 </property>
 
 <!--配置namenode文件夹目录 -->
@@ -44,7 +44,7 @@
 <!--配置副本数 -->
 <property>
     <name>dfs.replication</name>
-    <value>2</value>
+    <value>3</value>
 </property>
 
 <!--配置。。。 -->

@@ -1,11 +1,8 @@
 envPath=/users/zhang56/SparkEnv
 
-# JAVA
-export JAVA_HOME=${envPath}/jdk-18.0.1.1
-export PATH=$PATH:$JAVA_HOME/bin
 
 # Scala
-export SCALA_HOME=${envPath}/scala/scala-2.12.15
+export SCALA_HOME=${envPath}/scala-2.12.15
 export PATH=$PATH:$SCALA_HOME/bin
 
 # hadoop

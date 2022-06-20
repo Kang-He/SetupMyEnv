@@ -7,8 +7,7 @@ mkdir -p $envPath
 
 cd $envPath
 ##安装java
-wget https://download.oracle.com/java/18/latest/jdk-18_linux-x64_bin.tar.gz
-tar -xzvf jdk-18_linux-x64_bin.tar.gz
+sudo yum install -y java-1.8.0-openjdk-devel.x86_64
 
 ##安装scala
 wget https://downloads.lightbend.com/scala/2.12.15/scala-2.12.15.tgz

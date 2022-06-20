@@ -415,4 +415,3 @@ export HADOOP_OS_TYPE=${HADOOP_OS_TYPE:-$(uname -s)}
 #
 # For example, to limit who can execute the namenode command,
 # export HDFS_NAMENODE_USER=hdfs
-export JAVA_HOME=/users/zhang56/SparkEnv/jdk-18.0.1.1
