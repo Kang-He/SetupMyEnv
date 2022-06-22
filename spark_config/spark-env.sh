@@ -71,7 +71,8 @@
 # You might get better performance to enable these options if using native BLAS (see SPARK-21305).
 # - MKL_NUM_THREADS=1        Disable multi-threading of Intel MKL
 # - OPENBLAS_NUM_THREADS=1   Disable multi-threading of OpenBLAS
-#export SCALA_HOME=/users/zhang56/SparkEnv/scala-2.12.15
+#export JAVA_HOME=/users/zhang56/SparkEnv/jdk-18.0.1.1
+export SCALA_HOME=/users/zhang56/SparkEnv/scala/scala-2.12.15
 export SPARK_WORKER_MEMORY=7g
 export SPARK_MASTER_IP=128.105.145.104
 export MASTER=spark://128.105.145.104:7077

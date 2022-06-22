@@ -19,8 +19,8 @@
 <configuration>
 <!--配置主节点名和端口号 -->
 <property>
-    <name>dfs.namenode.http.address</name>
-    <value>128.105.145.104:9001</value>
+    <name>dfs.http.address</name>
+    <value>128.105.145.104:50070</value>
 </property>
 
 <!--配置从节点名和端口号 -->
