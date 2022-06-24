@@ -21,3 +21,6 @@ tar -zxvf hadoop-3.2.3.tar.gz
 wget https://downloads.apache.org/spark/spark-3.1.3/spark-3.1.3-bin-hadoop3.2.tgz
 tar -xzvf spark-3.1.3-bin-hadoop3.2.tgz
 
+##安装zookeeper
+wget http://archive.apache.org/dist/zookeeper/stable/apache-zookeeper-3.6.3-bin.tar.gz
+tar -xzvf apache-zookeeper-3.6.3-bin.tar.gz
